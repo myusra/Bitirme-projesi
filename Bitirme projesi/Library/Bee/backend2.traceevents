@@ -1,0 +1,413 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1708765790009119, "dur":16366, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708765790025498, "dur":200, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708765790025770, "dur":661, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708765790026611, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/level0" }}
+,{ "pid":12345, "tid":0, "ts":1708765790028586, "dur":144, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1708765790028764, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1708765790026474, "dur":5775, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708765790032252, "dur":293479, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708765790325755, "dur":369, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708765790326128, "dur":248, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708765790326580, "dur":2190, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1708765790026649, "dur":5629, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708765790032638, "dur":582, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.BuildLogic.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708765790032289, "dur":2395, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708765790034685, "dur":7958, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708765790042644, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1708765790043068, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708765790048713, "dur":113, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708765790048870, "dur":12005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1708765790061013, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1708765790061268, "dur":221, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708765790061513, "dur":15976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1708765790077655, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708765790079177, "dur":38368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708765790117718, "dur":353, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708765790118107, "dur":10284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708765790128518, "dur":3307, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708765790131872, "dur":6624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708765790138582, "dur":313, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708765790138942, "dur":7297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708765790146370, "dur":377, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708765790146773, "dur":12970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708765790159818, "dur":405, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708765790160290, "dur":5992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708765790166366, "dur":390, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708765790166806, "dur":5162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708765790172040, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708765790172165, "dur":4893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708765790177151, "dur":361, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708765790177542, "dur":5040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708765790182690, "dur":12491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1708765790195322, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1708765790195317, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1708765790195516, "dur":40365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1708765790235977, "dur":26786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1708765790262857, "dur":62880, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708765790026646, "dur":5624, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708765790032275, "dur":10071, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708765790044241, "dur":1533, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":2, "ts":1708765790045786, "dur":124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1708765790045961, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1708765790046081, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1708765790046523, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\OneDrive\\Desktop\\GITHUB\\Bitirme-projesi\\Bitirme projesi\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708765790046641, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\OneDrive\\Desktop\\GITHUB\\Bitirme-projesi\\Bitirme projesi\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708765790046748, "dur":321, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\OneDrive\\Desktop\\GITHUB\\Bitirme-projesi\\Bitirme projesi\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708765790047072, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\OneDrive\\Desktop\\GITHUB\\Bitirme-projesi\\Bitirme projesi\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708765790047199, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\OneDrive\\Desktop\\GITHUB\\Bitirme-projesi\\Bitirme projesi\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Recorder.Base.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708765790047304, "dur":720, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\OneDrive\\Desktop\\GITHUB\\Bitirme-projesi\\Bitirme projesi\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708765790048027, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\OneDrive\\Desktop\\GITHUB\\Bitirme-projesi\\Bitirme projesi\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708765790048134, "dur":356, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\OneDrive\\Desktop\\GITHUB\\Bitirme-projesi\\Bitirme projesi\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708765790048492, "dur":502, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\OneDrive\\Desktop\\GITHUB\\Bitirme-projesi\\Bitirme projesi\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708765790048997, "dur":247, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\OneDrive\\Desktop\\GITHUB\\Bitirme-projesi\\Bitirme projesi\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708765790049247, "dur":485, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\OneDrive\\Desktop\\GITHUB\\Bitirme-projesi\\Bitirme projesi\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708765790049736, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\OneDrive\\Desktop\\GITHUB\\Bitirme-projesi\\Bitirme projesi\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Recorder.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708765790049856, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\OneDrive\\Desktop\\GITHUB\\Bitirme-projesi\\Bitirme projesi\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708765790050067, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player85c365e8-inputdata.json" }}
+,{ "pid":12345, "tid":2, "ts":1708765790045783, "dur":4582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1708765790050781, "dur":92, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708765790052624, "dur":264707, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1708765790323493, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1708765790323492, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1708765790323622, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1708765790026756, "dur":5549, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708765790032842, "dur":595, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708765790032311, "dur":1857, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708765790034168, "dur":8205, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708765790042376, "dur":953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1708765790061915, "dur":119, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708765790050871, "dur":11248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1708765790062261, "dur":725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1708765790062988, "dur":364, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708765790077879, "dur":3070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1708765790081100, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708765790116462, "dur":122, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708765790081301, "dur":35325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708765790116914, "dur":5973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708765790123039, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708765790123297, "dur":8860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708765790132264, "dur":492, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708765790132802, "dur":5102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708765790137983, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708765790138195, "dur":71, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708765790138293, "dur":7409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708765790146113, "dur":447, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708765790146643, "dur":12489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708765790159229, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708765790159465, "dur":6120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708765790165673, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708765790165973, "dur":5497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708765790171553, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708765790171726, "dur":5304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708765790177124, "dur":369, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708765790177521, "dur":5095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708765790182720, "dur":17624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1708765790209203, "dur":14237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1708765790223508, "dur":35890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1708765790259495, "dur":66247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708765790026695, "dur":5600, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708765790032300, "dur":624, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.VisualStudioSolution.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708765790033104, "dur":908, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.VisualStudio.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708765790032300, "dur":2757, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708765790035058, "dur":7944, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708765790043020, "dur":207, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1708765790043004, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1708765790043230, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708765790051825, "dur":15809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1708765790067715, "dur":894, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":4, "ts":1708765790067714, "dur":898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY.exe" }}
+,{ "pid":12345, "tid":4, "ts":1708765790068614, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708765790080348, "dur":111, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708765790068727, "dur":11759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY.exe" }}
+,{ "pid":12345, "tid":4, "ts":1708765790080590, "dur":496, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708765790081934, "dur":35699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708765790117758, "dur":350, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708765790118180, "dur":9609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708765790128164, "dur":329, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708765790128520, "dur":7818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708765790136433, "dur":342, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708765790136835, "dur":5985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708765790142921, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708765790143197, "dur":10364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708765790153668, "dur":616, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708765790154313, "dur":8834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708765790163268, "dur":511, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708765790163830, "dur":4766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708765790168685, "dur":304, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708765790169030, "dur":4950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708765790174065, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708765790174202, "dur":4431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708765790178727, "dur":228, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708765790178992, "dur":8275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708765790187378, "dur":72045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1708765790259503, "dur":66267, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708765790026795, "dur":5544, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708765790033130, "dur":624, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708765790032343, "dur":2426, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708765790034769, "dur":7952, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708765790042723, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1708765790042955, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708765790049653, "dur":5365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1708765790055110, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1708765790055352, "dur":5527, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708765790060974, "dur":9316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1708765790070361, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1708765790070569, "dur":7475, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708765790079041, "dur":36457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1708765790115600, "dur":444, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708765790116149, "dur":6159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708765790122449, "dur":438, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708765790122919, "dur":12573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708765790135586, "dur":6542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708765790142228, "dur":251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708765790142516, "dur":11123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708765790153738, "dur":500, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708765790154303, "dur":9748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708765790164508, "dur":394, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708765790164984, "dur":4781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708765790169849, "dur":370, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708765790170254, "dur":4673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708765790175022, "dur":462, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708765790175513, "dur":4638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708765790180234, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708765790180343, "dur":7727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708765790188170, "dur":47508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1708765790235866, "dur":26911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1708765790262887, "dur":62865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708765790026842, "dur":5517, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708765790032591, "dur":1120, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708765790032363, "dur":2725, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708765790035088, "dur":7263, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708765790042381, "dur":1122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708765790043534, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708765790044449, "dur":5817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1708765790050272, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1708765790050493, "dur":1325, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708765790051987, "dur":10925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1708765790063093, "dur":487, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708765790063089, "dur":494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708765790063585, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708765790079157, "dur":25906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708765790105133, "dur":11167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708765790116316, "dur":224, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708765790116547, "dur":11453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708765790128069, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708765790128287, "dur":115, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708765790128409, "dur":8708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708765790137206, "dur":268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708765790137499, "dur":7632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708765790145236, "dur":586, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708765790145859, "dur":12318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708765790158260, "dur":542, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708765790158847, "dur":6285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708765790165210, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708765790165373, "dur":5621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708765790171082, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708765790171246, "dur":4892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708765790176221, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708765790176491, "dur":4994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708765790181651, "dur":4860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1708765790186623, "dur":27916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1708765790214718, "dur":26922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1708765790241771, "dur":21187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1708765790263041, "dur":62717, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708765790026887, "dur":5505, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708765790032396, "dur":1963, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708765790034360, "dur":8000, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708765790042401, "dur":266, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1708765790042371, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1708765790042670, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708765790046395, "dur":6349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1708765790052824, "dur":226, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1708765790052820, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1708765790053053, "dur":571, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708765790080335, "dur":151, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708765790053771, "dur":26730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1708765790080748, "dur":518, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708765790081279, "dur":79, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708765790081432, "dur":13830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708765790095506, "dur":20653, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708765790116242, "dur":243, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708765790116494, "dur":8177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708765790124791, "dur":1012, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708765790125867, "dur":8623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708765790134617, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708765790134820, "dur":5602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708765790140526, "dur":296, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708765790140871, "dur":9069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708765790150055, "dur":1916, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708765790152038, "dur":9969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708765790162096, "dur":458, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708765790162645, "dur":5536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708765790168268, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708765790168366, "dur":5553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708765790174005, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708765790174232, "dur":4046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708765790178375, "dur":582, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708765790178994, "dur":8000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708765790187110, "dur":33767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1708765790220985, "dur":34746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/level2.resS" }}
+,{ "pid":12345, "tid":7, "ts":1708765790256053, "dur":7463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1708765790263583, "dur":62192, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708765790026934, "dur":5687, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708765790032624, "dur":1316, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708765790033940, "dur":8632, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708765790042574, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1708765790042948, "dur":224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708765790048364, "dur":4712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1708765790053145, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1708765790053327, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708765790053577, "dur":23818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1708765790077593, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708765790079523, "dur":37576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708765790117189, "dur":886, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708765790118112, "dur":9456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708765790127761, "dur":535, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708765790128355, "dur":7380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/Unity.Recorder.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708765790135823, "dur":651, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708765790136504, "dur":6939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708765790143523, "dur":446, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708765790144015, "dur":11762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708765790155845, "dur":1965, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708765790157857, "dur":6918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708765790164848, "dur":481, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708765790165370, "dur":5647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708765790171084, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708765790171251, "dur":4515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708765790175865, "dur":558, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708765790176453, "dur":4516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708765790181055, "dur":195, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708765790181053, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708765790181346, "dur":80672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708765790262096, "dur":63677, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708765790026977, "dur":5698, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708765790032679, "dur":1287, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708765790033967, "dur":8523, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708765790042521, "dur":513, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":9, "ts":1708765790042491, "dur":544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1708765790043036, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708765790049423, "dur":14233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1708765790063756, "dur":214, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708765790063753, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708765790063973, "dur":12970, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708765790079406, "dur":47761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708765790127372, "dur":6461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708765790133946, "dur":5726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708765790139752, "dur":346, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708765790147976, "dur":1701, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708765790140137, "dur":9571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708765790149851, "dur":1923, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708765790151855, "dur":10092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708765790162032, "dur":520, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708765790162637, "dur":5000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708765790167726, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708765790168020, "dur":4853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708765790172954, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708765790173125, "dur":4258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708765790177450, "dur":451, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708765790177936, "dur":8614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708765790186656, "dur":27896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1708765790214722, "dur":26711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/level3.resS" }}
+,{ "pid":12345, "tid":9, "ts":1708765790241587, "dur":21802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1708765790263556, "dur":62171, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708765790027041, "dur":6660, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708765790033705, "dur":828, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708765790034533, "dur":7831, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708765790042373, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1708765790042759, "dur":370, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708765790054703, "dur":128, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708765790046853, "dur":8011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1708765790055131, "dur":204, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1708765790055128, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1708765790055338, "dur":6089, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708765790061454, "dur":16683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1708765790078225, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708765790079526, "dur":3638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1708765790083249, "dur":11510, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708765790094818, "dur":26441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1708765790121452, "dur":489, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708765790121970, "dur":6909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1708765790129036, "dur":8144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1708765790137257, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708765790137476, "dur":7008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1708765790144564, "dur":525, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708765790145125, "dur":10674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1708765790155879, "dur":1904, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708765790157832, "dur":6812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1708765790164742, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708765790164980, "dur":5158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1708765790170306, "dur":420, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708765790170766, "dur":4571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1708765790175421, "dur":457, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708765790175920, "dur":5024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1708765790181033, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708765790181204, "dur":6645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1708765790187983, "dur":35000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1708765790223092, "dur":36167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/level2" }}
+,{ "pid":12345, "tid":10, "ts":1708765790259356, "dur":66404, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708765790027084, "dur":6781, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708765790033866, "dur":8491, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708765790042405, "dur":273, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1708765790042371, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1708765790042681, "dur":415, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708765790044737, "dur":9213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1708765790054056, "dur":195, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":11, "ts":1708765790054052, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1708765790060817, "dur":9496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1708765790070389, "dur":7173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708765790078902, "dur":42792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708765790121763, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708765790121993, "dur":5786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708765790127855, "dur":418, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708765790128301, "dur":7326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708765790135772, "dur":5748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708765790141626, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708765790141807, "dur":10451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708765790152436, "dur":746, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708765790153303, "dur":10097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708765790163493, "dur":283, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708765790163841, "dur":5425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708765790169375, "dur":442, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708765790169884, "dur":4536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708765790174491, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708765790174609, "dur":4584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708765790179287, "dur":550, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708765790179885, "dur":7806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708765790187877, "dur":32959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1708765790220946, "dur":38487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/level3" }}
+,{ "pid":12345, "tid":11, "ts":1708765790259501, "dur":66284, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708765790027148, "dur":6729, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708765790033877, "dur":8761, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708765790042663, "dur":381, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1708765790042639, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1708765790043048, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708765790047696, "dur":5596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1708765790053371, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1708765790053550, "dur":7694, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708765790081333, "dur":312, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708765790061955, "dur":19718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1708765790081870, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708765790081995, "dur":38950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1708765790121838, "dur":342, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708765790122213, "dur":10865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1708765790133246, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708765790133447, "dur":5634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/Unity.Recorder.Base.dll" }}
+,{ "pid":12345, "tid":12, "ts":1708765790139164, "dur":444, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708765790139670, "dur":7535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1708765790147292, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708765790147607, "dur":12910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1708765790160670, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708765790160915, "dur":6103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1708765790167101, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708765790167272, "dur":5566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1708765790172908, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708765790173115, "dur":5058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1708765790178245, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708765790178351, "dur":7826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1708765790186290, "dur":23197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1708765790209597, "dur":32037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1708765790241755, "dur":23264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/OneDrive/Desktop/Oyunlar/GAIANITY_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1708765790265096, "dur":60638, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708765790332816, "dur":1922, "ph":"X", "name": "ProfilerWriteOutput" }
+,

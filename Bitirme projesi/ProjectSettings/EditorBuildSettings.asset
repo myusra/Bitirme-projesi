@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: "Assets/Scenes/AnaMen\xFC.unity"
+    guid: 740dd29ea863a034eb4875f6937afd55
+  - enabled: 1
+    path: "Assets/Scenes/Men\xFC.unity"
+    guid: 5bf307940f2a93a4db71049b866eb608
+  - enabled: 1
+    path: Assets/Scenes/1.level.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/2.level.unity
+    guid: 2d396ec68023908499d684877ec4b09f
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a01d520024402964cab173b89e83a634, type: 2}
